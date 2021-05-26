@@ -1,0 +1,106 @@
+body {
+background: url('https://eskipaper.com/images/awesome-brown-background-1.jpg')
+}
+
+
+p {
+font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+font-family: 'Coda Caption', sans-serif;
+}
+
+h2 {
+font-family: 'Coda Caption', sans-serif;
+}
+
+h3 {
+font-family: 'Coda Caption', sans-serif;
+}
+
+
+
+#wrapper {
+
+
+width:70%;
+margin:auto;
+background: hsla(0,0%,100%,0.60);
+
+}
+ul#social {
+list-style-type: none;
+display:flex;
+}
+
+ul#social li {
+float: left;
+}
+
+
+ul#social li img {
+
+width:20%;
+
+}
+
+/*.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}*/
+
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #FFA500;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+div {
+  color: black;
+}
+
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.grid-container {
+	display: flex;
+}
+	
+
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #FFA500;
+   color: white;
+   text-align: center;
+}
+
+
+/* #hero{
+
+background url('../images/fake-news-hero.jpg');
+	height: 300px;
+}*/
